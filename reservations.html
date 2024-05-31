@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/main-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayahay Beach Resort</title>
+</head>
+
+<body id="main-body">
+    <header>
+        <div id="logo">
+            <h1>
+                HAYAHAY
+            </h1>
+            <p>SAMAL ISLAND</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cottages.html">Cottages</a></li>
+                <li><a href="room-rates.html">Room Rates</a></li>
+                <li id="reservations"><a href="reservations.html">Reservations</a></li>
+                <li><a href="about-us.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <main>
+            <div id="reservations-body">
+                <form action="">
+                    <label for="name" id="name">Name: </label><input type="text" required>
+                    <label for="email">Email: </label><input type="email" id="email" required>
+                    <label for="checkin">Check-in Date: </label> <input type="date" id="checkin" name="checkin"
+                        required>
+                    <label for="checkout">Check-out Date: </label><input type="date" id="checkout" name="checkout"
+                        required>
+                    <label for="cottage">Select Cottages:</label>
+                    <select id="cottage" name="cottage" required>
+                        <option value="none">None</option>
+                        <option value="cottage1">Gazebo</option>
+                        <option value="cottage2">Cabana</option>
+                        <option value="cottage3">Beach Tent</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <label for="room">Select Rooms:</label>
+                    <select id="room" name="room" required>
+                        <option value="none">None</option>
+                        <option value="room">Room1</option>
+                        <option value="room1">Room2</option>
+                        <option value="room2">Room3</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <label for="specialRequests">Special Requests: </label><br><textarea id="specialRequests"
+                        name="specialRequests" rows="4"></textarea>
+                    <button type="submit" id="submit">Submit</button>
+
+                </form>
+                <div id="reservation-texts">
+                    <h1>Book Now!</h1>
+                    <p>You can now book your dream getaway at Hayahay Beach Resort!
+                        Immerse yourself in the tranquil beauty of our surroundings and
+                        make memories that will last a lifetime. Choose from a variety of cozy
+                        cottages, each offering a unique blend of comfort and style.
+                        Whether you prefer a beachfront retreat or a secluded garden escape,
+                        we have the perfect cottage to suit your preferences.
+                        But that's not all – we've made your experience even better!
+                        In addition to booking cottages, you can also reserve your spot
+                        and plan your visit with ease by securing entrance passes to our resort.
+                        Embrace the natural wonders, enjoy the pristine beaches,
+                        and take advantage of our world-class amenities.
+                        Escape the ordinary and indulge in the extraordinary
+                        at Hayahay Beach Resort. Start your journey to relaxation and adventure
+                        by booking your reservation and securing your entrance passes today. Your tropical paradise
+                        awaits!"</p>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <p>
+
+                <span>
+                fb: Hayahay Beach Resort insta: @hayahayresort.com</span>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
